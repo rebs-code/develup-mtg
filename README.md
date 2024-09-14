@@ -5,7 +5,7 @@
 - [x] Typography
 - [x] Layout
 - [x] Heading
-- [ ] Search input
+- [x] Search input
 - [ ] Home page
 - [ ] Cards index
 - [ ] Card images

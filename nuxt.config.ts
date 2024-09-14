@@ -10,4 +10,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  shadcn: {
+    prefix: "",
+    componentDir: "./components/ui",
+  },
 });
