@@ -12,6 +12,16 @@
             </div>
         </div>
 
+        <div class="flex">
+            <cards-filters />
+
+            <div>
+                <cards-grid v-if="view === 'grid'" :cards="cards" />
+
+                <cards-table v-if="view === 'table'" :cards="cards" />
+            </div>
+        </div>
+
         <div>
             <cards-grid v-if="view === 'grid'" :cards="cards" />
 

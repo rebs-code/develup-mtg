@@ -12,8 +12,8 @@
 - [x] Cards grid
 - [x] Cards search
 - [x] Cards filters store
-- [ ] Table view
-- [ ] Filters box
+- [x] Table view
+- [x] Filters box
 - [ ] Sets filter
 - [ ] Apply filters
 - [ ] StoreToRefs
