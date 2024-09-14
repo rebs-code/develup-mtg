@@ -14,7 +14,7 @@
 - [x] Cards filters store
 - [x] Table view
 - [x] Filters box
-- [ ] Sets filter
+- [x] Sets filter
 - [ ] Apply filters
 - [ ] StoreToRefs
 - [ ] No results
