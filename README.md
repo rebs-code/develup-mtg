@@ -6,9 +6,9 @@
 - [x] Layout
 - [x] Heading
 - [x] Search input
-- [ ] Home page
-- [ ] Cards index
-- [ ] Card images
+- [x] Home page
+- [x] Cards index
+- [x] Card images
 - [ ] Cards grid
 - [ ] Cards search
 - [ ] Cards filters store

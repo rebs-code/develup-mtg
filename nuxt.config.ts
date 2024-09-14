@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["shadcn-nuxt"],
+  modules: ["shadcn-nuxt", "@nuxt/image"],
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {

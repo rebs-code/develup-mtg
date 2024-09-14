@@ -4,7 +4,7 @@
 
         <div>
             <div v-for="card in cards" :key="card.id">
-                <h2>{{ card.name }}</h2>
+                <cards-image :card="card" />
             </div>
         </div>
     </div>
