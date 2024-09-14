@@ -11,7 +11,7 @@
 - [x] Card images
 - [x] Cards grid
 - [x] Cards search
-- [ ] Cards filters store
+- [x] Cards filters store
 - [ ] Table view
 - [ ] Filters box
 - [ ] Sets filter

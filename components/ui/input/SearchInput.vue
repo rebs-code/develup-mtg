@@ -12,14 +12,19 @@
 <script setup lang="ts">
 import { Search } from 'lucide-vue-next'
 import { Input } from '@/components/ui/input'
+import { useCardsFiltersStore } from '@/stores/cardsFiltersStore'
 
 const route = useRoute()
 
 const query = ref(route.query.q as string || '')
 
 const onSearch = () => {
-    navigateTo(
-        { path: '/cards', query: { q: query.value } }
-    )
+    if (!query.value) return
+
+    const { filters } = useCardsFiltersStore()
+
+    filters.q = query.value
+
+    navigateTo({ path: "/cards", query: { q: query.value } })
 };
 </script>

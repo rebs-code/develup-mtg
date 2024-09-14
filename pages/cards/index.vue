@@ -7,11 +7,25 @@
 </template>
 
 <script setup>
-const route = useRoute()
+import { useCardsFiltersStore } from '~/stores/cardsFiltersStore'
 
-const query = route.query.q || 'jace'
+const { filters } = useCardsFiltersStore()
 
-const { data: response } = await useFetch('https://api.scryfall.com/cards/search?q=' + query)
+const response = ref(null)
 
-const cards = response.value.data
+const getCards = async () => {
+    const { data } = await $fetch('https://api.scryfall.com/cards/search?q=' + filters.q)
+
+    response.value = data
+}
+
+getCards()
+
+watch(
+    () => filters,
+    () => getCards(),
+    { deep: true }
+)
+
+const cards = computed(() => response.value || [])
 </script>
