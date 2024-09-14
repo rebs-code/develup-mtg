@@ -2,7 +2,7 @@
 
 - [x] Tailwind setup
 - [x] Shadcn setup
-- [ ] Typography
+- [x] Typography
 - [ ] Layout
 - [ ] Heading
 - [ ] Search input
