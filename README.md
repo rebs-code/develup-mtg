@@ -3,7 +3,7 @@
 - [x] Tailwind setup
 - [x] Shadcn setup
 - [x] Typography
-- [ ] Layout
+- [x] Layout
 - [ ] Heading
 - [ ] Search input
 - [ ] Home page
