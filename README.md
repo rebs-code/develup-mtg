@@ -10,7 +10,7 @@
 - [x] Cards index
 - [x] Card images
 - [x] Cards grid
-- [ ] Cards search
+- [x] Cards search
 - [ ] Cards filters store
 - [ ] Table view
 - [ ] Filters box
