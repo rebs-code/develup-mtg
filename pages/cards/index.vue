@@ -2,11 +2,7 @@
     <div class="h-full">
         <h1>Cards</h1>
 
-        <div>
-            <div v-for="card in cards" :key="card.id">
-                <cards-image :card="card" />
-            </div>
-        </div>
+        <cards-grid :cards="cards" />
     </div>
 </template>
 

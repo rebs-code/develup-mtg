@@ -9,7 +9,7 @@
 - [x] Home page
 - [x] Cards index
 - [x] Card images
-- [ ] Cards grid
+- [x] Cards grid
 - [ ] Cards search
 - [ ] Cards filters store
 - [ ] Table view
