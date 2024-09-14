@@ -4,7 +4,7 @@
 - [x] Shadcn setup
 - [x] Typography
 - [x] Layout
-- [ ] Heading
+- [x] Heading
 - [ ] Search input
 - [ ] Home page
 - [ ] Cards index
